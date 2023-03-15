@@ -1,5 +1,5 @@
 let typingText = document.querySelector(".change_txt")
- let Designation = ["CyberSecurity engeneer","Digital Forensics", "Security Consoltunt"]
+ let Designation = ["CyberSecurity engeneer","Digital Forensics", "Security Consoltant"]
 
 let arrayIndex = 1;
 
@@ -13,6 +13,7 @@ function ChangingTxt(){
         typingText.innerHTML=Designation[arrayIndex]
         arrayIndex = arrayIndex + 1
     }
+    o
 }
 
 ChangingTxt();
